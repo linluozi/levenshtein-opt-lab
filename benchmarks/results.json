@@ -1,0 +1,389 @@
+{
+  "generatedAt": "2026-10-17T15:11:47.812Z",
+  "runtime": {
+    "node": "v22.22.2",
+    "platform": "win32",
+    "arch": "x64"
+  },
+  "method": {
+    "timing": "same-round interleaved, order reversed on alternate rounds",
+    "statistic": "median of per-round ratios, with p10/p90",
+    "nullControl": "arm A timed against itself to establish the noise floor"
+  },
+  "cases": [
+    {
+      "n": 100,
+      "shortSize": null,
+      "order": "equal",
+      "reps": 2000,
+      "rounds": 9,
+      "arms": {
+        "A": {
+          "ms": 0.1056,
+          "ratioMedian": 1,
+          "ratioP10": 1,
+          "ratioP90": 1
+        },
+        "B": {
+          "ms": 0.0454,
+          "ratioMedian": 2.396,
+          "ratioP10": 2.1057,
+          "ratioP90": 2.4387
+        },
+        "C": {
+          "ms": 0.0319,
+          "ratioMedian": 3.477,
+          "ratioP10": 3.0195,
+          "ratioP90": 3.5963
+        },
+        "D": {
+          "ms": 0.0304,
+          "ratioMedian": 3.6881,
+          "ratioP10": 3.1873,
+          "ratioP90": 3.8974
+        }
+      },
+      "nullControl": {
+        "median": 0.9874,
+        "min": 0.8477,
+        "max": 1.1057
+      }
+    },
+    {
+      "n": 200,
+      "shortSize": null,
+      "order": "equal",
+      "reps": 300,
+      "rounds": 11,
+      "arms": {
+        "A": {
+          "ms": 0.4552,
+          "ratioMedian": 1,
+          "ratioP10": 1,
+          "ratioP90": 1
+        },
+        "B": {
+          "ms": 0.2206,
+          "ratioMedian": 2.083,
+          "ratioP10": 1.9833,
+          "ratioP90": 2.205
+        },
+        "C": {
+          "ms": 0.1565,
+          "ratioMedian": 3.057,
+          "ratioP10": 2.5544,
+          "ratioP90": 3.3041
+        },
+        "D": {
+          "ms": 0.1468,
+          "ratioMedian": 3.1651,
+          "ratioP10": 2.8613,
+          "ratioP90": 3.4918
+        }
+      },
+      "nullControl": {
+        "median": 1.0266,
+        "min": 0.8815,
+        "max": 1.1451
+      }
+    },
+    {
+      "n": 500,
+      "shortSize": null,
+      "order": "equal",
+      "reps": 40,
+      "rounds": 11,
+      "arms": {
+        "A": {
+          "ms": 2.868,
+          "ratioMedian": 1,
+          "ratioP10": 1,
+          "ratioP90": 1
+        },
+        "B": {
+          "ms": 1.4527,
+          "ratioMedian": 1.9187,
+          "ratioP10": 1.765,
+          "ratioP90": 2.2278
+        },
+        "C": {
+          "ms": 1.108,
+          "ratioMedian": 2.4579,
+          "ratioP10": 2.3829,
+          "ratioP90": 2.9594
+        },
+        "D": {
+          "ms": 1.0868,
+          "ratioMedian": 2.5304,
+          "ratioP10": 2.2327,
+          "ratioP90": 3.2897
+        }
+      },
+      "nullControl": {
+        "median": 0.9713,
+        "min": 0.8874,
+        "max": 1.1207
+      }
+    },
+    {
+      "n": 1000,
+      "shortSize": null,
+      "order": "equal",
+      "reps": 12,
+      "rounds": 11,
+      "arms": {
+        "A": {
+          "ms": 13.0903,
+          "ratioMedian": 1,
+          "ratioP10": 1,
+          "ratioP90": 1
+        },
+        "B": {
+          "ms": 7.7534,
+          "ratioMedian": 1.7249,
+          "ratioP10": 1.4927,
+          "ratioP90": 1.865
+        },
+        "C": {
+          "ms": 4.754,
+          "ratioMedian": 2.7391,
+          "ratioP10": 2.4368,
+          "ratioP90": 3.1057
+        },
+        "D": {
+          "ms": 4.3761,
+          "ratioMedian": 2.9744,
+          "ratioP10": 2.8129,
+          "ratioP90": 3.2526
+        }
+      },
+      "nullControl": {
+        "median": 1.0183,
+        "min": 0.8994,
+        "max": 1.2529
+      }
+    },
+    {
+      "n": 2000,
+      "shortSize": null,
+      "order": "equal",
+      "reps": 4,
+      "rounds": 9,
+      "arms": {
+        "A": {
+          "ms": 65.8249,
+          "ratioMedian": 1,
+          "ratioP10": 1,
+          "ratioP90": 1
+        },
+        "B": {
+          "ms": 39.8034,
+          "ratioMedian": 1.6459,
+          "ratioP10": 1.5623,
+          "ratioP90": 1.7231
+        },
+        "C": {
+          "ms": 20.6925,
+          "ratioMedian": 3.2372,
+          "ratioP10": 2.9206,
+          "ratioP90": 3.5247
+        },
+        "D": {
+          "ms": 20.2402,
+          "ratioMedian": 3.2808,
+          "ratioP10": 2.9426,
+          "ratioP90": 3.5456
+        }
+      },
+      "nullControl": {
+        "median": 1.0136,
+        "min": 0.9246,
+        "max": 1.2644
+      }
+    },
+    {
+      "n": 2000,
+      "shortSize": 8,
+      "order": "shortFirst",
+      "reps": 200,
+      "rounds": 11,
+      "arms": {
+        "A": {
+          "ms": 0.3206,
+          "ratioMedian": 1,
+          "ratioP10": 1,
+          "ratioP90": 1
+        },
+        "B": {
+          "ms": 0.146,
+          "ratioMedian": 2.1936,
+          "ratioP10": 2.0044,
+          "ratioP90": 2.4469
+        },
+        "C": {
+          "ms": 0.0617,
+          "ratioMedian": 5.2714,
+          "ratioP10": 4.4096,
+          "ratioP90": 5.6801
+        },
+        "D": {
+          "ms": 0.0543,
+          "ratioMedian": 5.9615,
+          "ratioP10": 5.1213,
+          "ratioP90": 6.306
+        }
+      },
+      "nullControl": {
+        "median": 1.0418,
+        "min": 0.9457,
+        "max": 1.2287
+      }
+    },
+    {
+      "n": 2000,
+      "shortSize": 8,
+      "order": "longFirst",
+      "reps": 200,
+      "rounds": 11,
+      "arms": {
+        "A": {
+          "ms": 0.1611,
+          "ratioMedian": 1,
+          "ratioP10": 1,
+          "ratioP90": 1
+        },
+        "B": {
+          "ms": 0.0873,
+          "ratioMedian": 1.9776,
+          "ratioP10": 1.3132,
+          "ratioP90": 2.2611
+        },
+        "C": {
+          "ms": 0.0623,
+          "ratioMedian": 2.8199,
+          "ratioP10": 2.0863,
+          "ratioP90": 3.0402
+        },
+        "D": {
+          "ms": 0.0623,
+          "ratioMedian": 2.734,
+          "ratioP10": 1.7201,
+          "ratioP90": 3.3986
+        }
+      },
+      "nullControl": {
+        "median": 0.9595,
+        "min": 0.7256,
+        "max": 1.0837
+      }
+    },
+    {
+      "n": 2000,
+      "shortSize": 64,
+      "order": "shortFirst",
+      "reps": 100,
+      "rounds": 11,
+      "arms": {
+        "A": {
+          "ms": 1.4656,
+          "ratioMedian": 1,
+          "ratioP10": 1,
+          "ratioP90": 1
+        },
+        "B": {
+          "ms": 0.7398,
+          "ratioMedian": 2.0059,
+          "ratioP10": 1.8656,
+          "ratioP90": 2.0902
+        },
+        "C": {
+          "ms": 0.4468,
+          "ratioMedian": 3.2839,
+          "ratioP10": 2.9222,
+          "ratioP90": 3.8266
+        },
+        "D": {
+          "ms": 0.5069,
+          "ratioMedian": 2.9153,
+          "ratioP10": 2.7892,
+          "ratioP90": 2.9436
+        }
+      },
+      "nullControl": {
+        "median": 1.0323,
+        "min": 0.896,
+        "max": 1.3135
+      }
+    },
+    {
+      "n": 2000,
+      "shortSize": 64,
+      "order": "longFirst",
+      "reps": 100,
+      "rounds": 11,
+      "arms": {
+        "A": {
+          "ms": 1.2537,
+          "ratioMedian": 1,
+          "ratioP10": 1,
+          "ratioP90": 1
+        },
+        "B": {
+          "ms": 0.6083,
+          "ratioMedian": 2.0751,
+          "ratioP10": 1.9505,
+          "ratioP90": 2.1995
+        },
+        "C": {
+          "ms": 0.5372,
+          "ratioMedian": 2.4416,
+          "ratioP10": 1.9605,
+          "ratioP90": 2.5518
+        },
+        "D": {
+          "ms": 0.4924,
+          "ratioMedian": 2.5281,
+          "ratioP10": 2.4498,
+          "ratioP90": 2.683
+        }
+      },
+      "nullControl": {
+        "median": 0.9991,
+        "min": 0.8589,
+        "max": 1.1393
+      }
+    }
+  ],
+  "cells": [
+    {
+      "n": 100,
+      "full": 10201,
+      "twoRow": 202,
+      "ratio": 50.5
+    },
+    {
+      "n": 200,
+      "full": 40401,
+      "twoRow": 402,
+      "ratio": 100.5
+    },
+    {
+      "n": 500,
+      "full": 251001,
+      "twoRow": 1002,
+      "ratio": 250.5
+    },
+    {
+      "n": 1000,
+      "full": 1002001,
+      "twoRow": 2002,
+      "ratio": 500.5
+    },
+    {
+      "n": 2000,
+      "full": 4004001,
+      "twoRow": 4002,
+      "ratio": 1000.5
+    }
+  ]
+}

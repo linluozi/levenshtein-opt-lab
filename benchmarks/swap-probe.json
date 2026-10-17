@@ -1,0 +1,188 @@
+{
+  "generatedAt": "2026-10-17T15:18:06.117Z",
+  "runtime": {
+    "node": "v22.22.2",
+    "platform": "win32",
+    "arch": "x64"
+  },
+  "rounds": 31,
+  "verdictRule": "p10 > 1.00 -> D wins; p90 < 1.00 -> D loses; otherwise noise",
+  "records": [
+    {
+      "short": 8,
+      "long": 2000,
+      "orientation": "shortFirst",
+      "cMs": 0.0622,
+      "dMs": 0.0613,
+      "ratio": 1.0287,
+      "p10": 0.7842,
+      "p90": 1.2956,
+      "verdict": "noise"
+    },
+    {
+      "short": 8,
+      "long": 2000,
+      "orientation": "longFirst",
+      "cMs": 0.0578,
+      "dMs": 0.0557,
+      "ratio": 1.0329,
+      "p10": 0.8384,
+      "p90": 1.2016,
+      "verdict": "noise"
+    },
+    {
+      "short": 32,
+      "long": 2000,
+      "orientation": "shortFirst",
+      "cMs": 0.2198,
+      "dMs": 0.2224,
+      "ratio": 0.9878,
+      "p10": 0.822,
+      "p90": 1.2213,
+      "verdict": "noise"
+    },
+    {
+      "short": 32,
+      "long": 2000,
+      "orientation": "longFirst",
+      "cMs": 0.2323,
+      "dMs": 0.2172,
+      "ratio": 1.0581,
+      "p10": 0.9482,
+      "p90": 1.1543,
+      "verdict": "noise"
+    },
+    {
+      "short": 64,
+      "long": 2000,
+      "orientation": "shortFirst",
+      "cMs": 0.4108,
+      "dMs": 0.4661,
+      "ratio": 0.8923,
+      "p10": 0.8392,
+      "p90": 0.9306,
+      "verdict": "D loses"
+    },
+    {
+      "short": 64,
+      "long": 2000,
+      "orientation": "longFirst",
+      "cMs": 0.5151,
+      "dMs": 0.476,
+      "ratio": 1.0526,
+      "p10": 1.0008,
+      "p90": 1.2669,
+      "verdict": "D wins"
+    },
+    {
+      "short": 256,
+      "long": 2000,
+      "orientation": "shortFirst",
+      "cMs": 1.7605,
+      "dMs": 2.3839,
+      "ratio": 0.7223,
+      "p10": 0.6811,
+      "p90": 0.8272,
+      "verdict": "D loses"
+    },
+    {
+      "short": 256,
+      "long": 2000,
+      "orientation": "longFirst",
+      "cMs": 2.5319,
+      "dMs": 2.4375,
+      "ratio": 1.0278,
+      "p10": 0.9931,
+      "p90": 1.0939,
+      "verdict": "noise"
+    },
+    {
+      "short": 1000,
+      "long": 2000,
+      "orientation": "shortFirst",
+      "cMs": 8.0506,
+      "dMs": 9.4407,
+      "ratio": 0.8454,
+      "p10": 0.7602,
+      "p90": 0.9307,
+      "verdict": "D loses"
+    },
+    {
+      "short": 1000,
+      "long": 2000,
+      "orientation": "longFirst",
+      "cMs": 9.6297,
+      "dMs": 9.2888,
+      "ratio": 1.0494,
+      "p10": 0.962,
+      "p90": 1.0944,
+      "verdict": "noise"
+    },
+    {
+      "short": 2000,
+      "long": 2000,
+      "orientation": "shortFirst",
+      "cMs": 18.2771,
+      "dMs": 17.5127,
+      "ratio": 1.0447,
+      "p10": 0.9626,
+      "p90": 1.1475,
+      "verdict": "noise"
+    },
+    {
+      "short": 2000,
+      "long": 2000,
+      "orientation": "longFirst",
+      "cMs": 23.6669,
+      "dMs": 22.3989,
+      "ratio": 1.0749,
+      "p10": 0.9529,
+      "p90": 1.1484,
+      "verdict": "noise"
+    }
+  ],
+  "memory": [
+    {
+      "short": 8,
+      "long": 2000,
+      "cRows": 4002,
+      "dRows": 18,
+      "ratio": 0.0045
+    },
+    {
+      "short": 32,
+      "long": 2000,
+      "cRows": 4002,
+      "dRows": 66,
+      "ratio": 0.0165
+    },
+    {
+      "short": 64,
+      "long": 2000,
+      "cRows": 4002,
+      "dRows": 130,
+      "ratio": 0.0325
+    },
+    {
+      "short": 256,
+      "long": 2000,
+      "cRows": 4002,
+      "dRows": 514,
+      "ratio": 0.1284
+    },
+    {
+      "short": 1000,
+      "long": 2000,
+      "cRows": 4002,
+      "dRows": 2002,
+      "ratio": 0.5002
+    },
+    {
+      "short": 2000,
+      "long": 2000,
+      "cRows": 4002,
+      "dRows": 4002,
+      "ratio": 1
+    }
+  ]
+}

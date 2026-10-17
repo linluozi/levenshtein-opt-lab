@@ -1,0 +1,32 @@
+{
+  "name": "levenshtein-opt-lab",
+  "version": "1.0.0",
+  "description": "Levenshtein edit distance in O(min(n,m)) memory, with a four-arm benchmark that shows what each change is actually worth",
+  "type": "module",
+  "main": "src/levenshteinDistance.js",
+  "exports": {
+    ".": "./src/levenshteinDistance.js"
+  },
+  "files": [
+    "src/levenshteinDistance.js"
+  ],
+  "scripts": {
+    "test": "node --test tests/levenshtein.test.mjs",
+    "bench": "node benchmarks/run_all.mjs",
+    "bench:quick": "node benchmarks/run_all.mjs --quick",
+    "probe:swap": "node benchmarks/swap_probe.mjs",
+    "mem": "node benchmarks/memory.mjs --cells",
+    "figures": "python assets/make_figures.py"
+  },
+  "keywords": [
+    "levenshtein",
+    "edit-distance",
+    "dynamic-programming",
+    "rolling-array",
+    "benchmark"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.0.0"
+  }
+}
